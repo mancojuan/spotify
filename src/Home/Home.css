@@ -1,0 +1,12 @@
+.banner{
+    background-image: url('https://www.soydebuenaventura.com/media/img/20180627_alkolirykoz_1.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30%;
+
+}
+
+.icono{
+    font-size: 80px;
+}

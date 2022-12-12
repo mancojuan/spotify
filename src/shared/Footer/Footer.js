@@ -4,22 +4,22 @@ export function Footer(){
 
     return(
         <footer>
-            <div class="container-fluid">
-                <div class="row p-5  pie">
-                    <div class="col-12 col-md-4 align-self-center">
-                        <img src="https://alcolirykoz.com/wp-content/themes/az/assets/dist/images/logohoddie.png" alt="foto" class="img-fluid w-50"/>
+            <div className="container-fluid">
+                <div className="row p-5  pie">
+                    <div className="col-12 col-md-4 align-self-center">
+                        <img src="https://alcolirykoz.com/wp-content/themes/az/assets/dist/images/logohoddie.png" alt="foto" className="img-fluid w-50"/>
                     </div>
-                    <div class="col-12 col-md-4 text-center text-white">
-                        <h2 class="fw-bold">SOBRE LA BANDA</h2>
+                    <div className="col-12 col-md-4 text-center text-white">
+                        <h2 className="fw-bold">SOBRE LA BANDA</h2>
                         <h4>RAP</h4>
                         <br></br>
-                        <h2 class="fw-bold">SOBRE LA BANDA</h2>
+                        <h2 className="fw-bold">SOBRE LA BANDA</h2>
                         <h4>RAP</h4>
                     </div>
-                    <div class="col-12 col-md-4 text-center text-white">
-                    <i class="bi bi-instagram fuente me-4"></i> 
-                    <i class="bi bi-twitter fuente me-4"></i>
-                    <i class="bi bi-facebook fuente me-4"></i>
+                    <div className="col-12 col-md-4 text-center text-white">
+                    <i className="bi bi-instagram fuente me-4"></i> 
+                    <i className="bi bi-twitter fuente me-4"></i>
+                    <i className="bi bi-facebook fuente me-4"></i>
                     </div>
                 </div>
             </div>

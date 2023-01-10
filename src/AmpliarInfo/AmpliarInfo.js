@@ -1,6 +1,5 @@
 import './AmpliarInfo.css'
 import { useLocation } from "react-router-dom"
-
 export function AmpliarInfo(){
 
     let datosrecibidos=useLocation()
@@ -11,7 +10,7 @@ export function AmpliarInfo(){
     return(
         <>
             <div className="container">
-                <div className="row my-5">
+                <div className="row  mt-5">
                     <div className="col-12 col-md-5 ">                      
                         <img src={producto.foto} alt="foto" className="img-fluid w-100"/>
                     </div>
@@ -25,16 +24,16 @@ export function AmpliarInfo(){
                         <img src="https://firebasestorage.googleapis.com/v0/b/spotify-alcolirykoz-a8b7c.appspot.com/o/american-express%20(1).png?alt=media&token=d90eef2e-9881-44a2-86e0-1c6e8365d53c" alt='america express' className='img-fluid ms-1'/>
                         <br></br>
 
-                        <i class="bi bi-truck mt-5 fs-1 ">
+                        <i class="bi bi-truck mt-1 fs-3 ">
                             <span className="text-success text-bold fuente " > Envio gratis a nivel nacional</span></i>
-                        <p className='fw-bold'>Conoce los tiempos y las formas de envio</p>
+                        <p className='fw-bold'>  Conoce los tiempos y las formas de envio</p>
 
                         <i class="bi bi-arrow-clockwise devolucion "><span className="text-success text-bold fuente "> Devolucion gratis</span></i>
-                        <p className='fw-bold'>30 dias para reembolsos</p>
+                        <p className='fw-bold'>  30 dias para reembolsos</p>
 
                         <h4 className='fw-bold'>DESCRIPCION</h4>
-                        <h2 className='descripcion'>{producto.descripcion}</h2>
-
+                        <h2 className=" descripcion ">{producto.descripcion}</h2>
+                        
                     </div>
                 </div>
             </div>

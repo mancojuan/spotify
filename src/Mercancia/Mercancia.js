@@ -71,10 +71,10 @@ export function Mercancia (){
                             <div key={id}>
                             
                                 <div className="col">
-                                    <div className="card h-100 shadow">
+                                    <div className="card h-100 shadow ">
                                         
                                         <h1 className="text-center mt-1 ">{producto.nombre}</h1>
-                                        <img src={producto.foto} alt="foto" className="h-100 img-fluid w-100 mt-1 "/>
+                                        <img src={producto.foto} alt="foto" className="  "/>
                                         <h1 className="text-center mt-1 mark">{producto.precio}</h1>
 
                                         <button className="btn btn-primary mx-5 my-3" onClick={

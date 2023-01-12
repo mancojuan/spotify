@@ -1,6 +1,6 @@
-//receta para consumir un api con react
 
 export async function servicioCancionesTop(){
+    //receta para consumir un api con react
 
     //1.pa onde vas y a q vas
     //escribir la url del servicio del api
@@ -12,7 +12,7 @@ export async function servicioCancionesTop(){
 
     const PETICION={
         method:"GET",
-        headers:{Authorization:"Bearer BQC2X89hT6l808oAkSMoH5NesC2Hld8py0vpLa6lauOh3xaKnhqLQdIXmyGGXHIi1pjf3fRwV-hIw3v08rgUdxlh52Fs-aJMA-LU81FBkqXPrJMi_zTCKI8-WM09Ghpjjd8s0KJOBDVrd6WC-L8haJrAAUmAvXoUXN7T7PYOIrhOK8-RbGghcbEHaLx8hzwZMoQ"}
+        headers:{Authorization:"Bearer BQDd_HOdlh9BJt8DnFIJBic1mLkFL4x58ljE-QPcGNFW6vN2Ku_IKfdEc6aFhowh04i3sHTa_2KpDf-_UqiJKr_2t36jsSIYyhUf3ThEpZu5hSphphCAgEhmunRhEyPFcGzsosa-l6PTOs_emn3CpAKha602Qo8nT_ei1lveRQ-N_ssgpkI3WptIWcNNR5vhkLU"}
 
     } 
 
@@ -21,6 +21,6 @@ export async function servicioCancionesTop(){
     let respuesta=await fetch(URL,PETICION)
     let canciones=await respuesta.json()
 
-    console.log (canciones)
+    return canciones 
     
 }

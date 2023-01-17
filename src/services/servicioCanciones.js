@@ -1,5 +1,8 @@
-
+import { generarToken } from "./servicioToken"
 export async function servicioCancionesTop(){
+
+    let token=await generarToken()
+
     //receta para consumir un api con react
 
     //1.pa onde vas y a q vas
@@ -12,7 +15,7 @@ export async function servicioCancionesTop(){
 
     const PETICION={
         method:"GET",
-        headers:{Authorization:"Bearer BQDd_HOdlh9BJt8DnFIJBic1mLkFL4x58ljE-QPcGNFW6vN2Ku_IKfdEc6aFhowh04i3sHTa_2KpDf-_UqiJKr_2t36jsSIYyhUf3ThEpZu5hSphphCAgEhmunRhEyPFcGzsosa-l6PTOs_emn3CpAKha602Qo8nT_ei1lveRQ-N_ssgpkI3WptIWcNNR5vhkLU"}
+        headers:{Authorization:token}
 
     } 
 

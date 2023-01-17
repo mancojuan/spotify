@@ -1,5 +1,6 @@
 import { Footer } from "../shared/Footer/Footer"
 import { useNavigate } from "react-router-dom"
+import './mercancia.css'
 
 
 export function Mercancia (){
@@ -18,7 +19,7 @@ export function Mercancia (){
         })
     }
 
-    let titulo="productos de la banda"
+    let titulo="PRODUCTOS"
 
     let productos=[
         {
@@ -61,7 +62,7 @@ export function Mercancia (){
     ]
     return(
         <>
-        <h1>{titulo}</h1>
+        <h1 className="text-center mt-3">{titulo}</h1>
         <div className="container">
             <div className="row row-cols-1 row-cols-md-3 g-5">
 
@@ -71,10 +72,10 @@ export function Mercancia (){
                             <div key={id}>
                             
                                 <div className="col">
-                                    <div className="card h-100 shadow ">
+                                    <div className="card shadow caja2">
                                         
                                         <h1 className="text-center mt-1 ">{producto.nombre}</h1>
-                                        <img src={producto.foto} alt="foto" className="  "/>
+                                        <img src={producto.foto} alt="foto" className="foto "/>
                                         <h1 className="text-center mt-1 mark">{producto.precio}</h1>
 
                                         <button className="btn btn-primary mx-5 my-3" onClick={

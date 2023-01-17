@@ -1,6 +1,7 @@
+
 export function  Integrantes(){
 
-let nombre="producto integrantes"
+let nombre="INTEGRANTES"
 
 let integrantes=[
     {
@@ -26,7 +27,7 @@ let integrantes=[
 
     return(
         <>
-        <h1>{nombre}</h1>
+        <h1 className="text-center mt-3">{nombre}</h1>
         <div className="container">
         <div className="row row-cols-2 row-cols-md-2 g-5">
             {
@@ -34,14 +35,14 @@ let integrantes=[
                     return(
                         <>
                         <div className="col">                       
-                            <div className="card h-100 shadow">
+                            <div className="card h-100 shadow mt-5">
                             
-                            <img src={integrante.foto} alt="foto className="h-100 img-fluid w-100 mt-2/>
+                            <img src={integrante.foto} alt="foto" className= "h-100 img-fluid w-100" />
                             </div>
                         
                         </div>
                         <div className="col">                       
-                            <div className="card h-100 shadow">
+                            <div className="card h-100 shadow mt-5">
                             <h1 className="text-center mt-1 mark">{integrante.nombre}</h1>
                             <h1 className="text-center mt-1">{integrante.edad}</h1>
                             <h1 className="text-center mt-1">{integrante.descripcion}</h1>

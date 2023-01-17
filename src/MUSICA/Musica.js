@@ -26,7 +26,7 @@ export function  Musica(){
         
         return(
             <>
-                <h2>estamos cargando las canciones </h2>
+                <h2></h2>
             </>
         )
 
@@ -34,7 +34,7 @@ export function  Musica(){
 
         return(
             <>
-                <h2>canciones de la banda</h2>
+                <h2 className="text-center mt-2">SONGS ALCOLIRYKOZ</h2>
                 <div className="container"> 
                             <div className="row row-cols-1 row-cols-md-5 g-1 mt-2"> 
                
@@ -42,11 +42,13 @@ export function  Musica(){
                             canciones.tracks.map(function(cancion){
                                 return(
                                     <div className="cols">
-                                    <div className="card  shadow caja">
+                                    <div className="card  shadow caja mt-3">
                                             <div>
-                                            <h1 className="text-center mt-1 ">{cancion.name}</h1>
-                                                 <img src={cancion.album.images[0].url} className="h-100 img-fluid w-100 mt-1"></img>                                                
+                                            
+                                                 <img src={cancion.album.images[0].url} className="imagen"></img>
+                                                 <h1 className="text-center letra ">{cancion.name}</h1>                                                
                                                  <audio controls src={cancion.preview_url} className="audio"></audio>
+                                                 <h3 className="text-center fs-5">   popularidad : {cancion.popularity}</h3>
 
                                             </div>
                                             </div>

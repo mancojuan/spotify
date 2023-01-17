@@ -1,15 +1,23 @@
 .caja{
    margin: 10px;
-   height: 580px;
+   height: 430px;
     
 }
 
 .audio{
 
-    width: 230px;
+    width: 234px;
+
 }
 
 .imagen{
-    height: 50px;
     
+    height: 300px;
+    width: 234px;
+   
+    
+}
+
+.letra{
+    font-size: 24px;
 }

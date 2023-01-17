@@ -5,7 +5,6 @@ import { Menu} from "../shared/Menu/Menu"
 import { Historia } from "../Historia/Historia"
 import { Integrantes } from "../Integrantes/Integrantes"
 import { Musica } from "../MUSICA/Musica"
-import { Albumes } from "../Albumes/Albumes"
 import { Mercancia } from "../Mercancia/Mercancia"
 import { AmpliarInfo } from "../AmpliarInfo/AmpliarInfo"
 
@@ -18,7 +17,6 @@ export function Rutas(){
           <Route path="/historia" element={<Historia />} />
           <Route path="/integrantes" element={<Integrantes />} />
           <Route path="/musica" element={<Musica />} />
-          <Route path="/albumes" element={<Albumes />} />
           <Route path="/mercancia" element={<Mercancia />} />
           <Route path="/tienda" element={<AmpliarInfo />} />
         </Routes>

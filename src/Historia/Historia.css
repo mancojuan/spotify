@@ -1,0 +1,17 @@
+.bannerh{
+  
+    background-image: url('https://images.genius.com/c227897e7f221864ee77729d82ece8e2.884x884x1.jpg');
+  
+    background-size: cover;
+    padding: 14%;
+}
+
+.titulo{
+    color:white;
+    font-size: 50px;
+}
+
+.let{
+    color: azure;
+    font-size: 23px;
+}

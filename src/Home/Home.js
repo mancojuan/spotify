@@ -14,7 +14,7 @@ export function Home(){
                 <div className="container my-5">
                     <div className="row">
                         <div className="col-12 col-md-8">
-                            <h2>ALCOLIRYKOZ</h2>
+                            <h2 className='text-center'>ALCOLIRYKOZ</h2>
                             <p>
                             Alcolirykoz es un grupo de hip hop que nació en el año 2005 en Medellín, Colombia, en el barrio Aranjuez en la comuna 4 de la ciudad. Integrado por los primos y raperos Juan Carlos Fonnegra (aka Gambeta) y Carlos Andrés (aka Kaztro) junto a su vecino y DJ Gustavo Adolfo (Fa-zeta).
                             </p>
@@ -77,7 +77,7 @@ export function Home(){
             <section>
                 <div className="container-fluid">
                     <di className="row">
-                        <h1>NOTICIAS</h1>
+                        <h1 className='text-center'>NOTICIAS</h1>
                         <hr/>
                     </di>
                     <div className="row">
